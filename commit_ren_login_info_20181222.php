@@ -33,8 +33,8 @@
     $res =  preg_match ( '/[\d\.]{7,15}/', $ip, $matches ) ? $matches [0] : '';
 	return $res;
 }
-
-  		$cookie = $_POST['cookie'];
+	if($_SERVER['REQUEST_METHOD'] == 'POST'){
+		$cookie = $_POST['cookie'];
   		$token = $_POST['token'];
   		$rtk = $_POST['rtk'];
 
@@ -74,6 +74,7 @@
 				print_r("insert_id:". $insert_id);
   			}
   		}
+	}
   ?>
 
   <body>
