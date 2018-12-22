@@ -86,7 +86,7 @@
 			  <div class="form-group">
 			    <label for="cookie" class="col-sm-2 control-label">Cookie:</label>
 			    <div class="col-sm-10">
-			      <textarea id="cookie" placeholder="cookie" class="form-control" rows="7" style="resize: none"></textarea>
+			      <textarea id="cookie" placeholder="cookie" name="cookie" class="form-control" rows="7" style="resize: none"></textarea>
 			    </div>
 			  </div>
 			  <div class="form-group">
