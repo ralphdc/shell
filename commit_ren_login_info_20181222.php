@@ -50,7 +50,7 @@
 
   			if(empty($mysql_host) || empty($mysql_port) || empty($mysql_user) || empty($mysql_pwd) || empty($mysql_db))
   			{
-  				echo "[Error] connect backend parameters is wrong!"
+  				echo "[Error] connect backend parameters is wrong!";
   			}else{
   				$dsn="$mysql:host=$mysql_host;dbname=$mysql_db";
   				try {
@@ -75,7 +75,7 @@
   			}
   		}
   ?>
-  
+
   <body>
     <h1>人人网爬虫 - 提交登录信息</h1>
     <hr/>
