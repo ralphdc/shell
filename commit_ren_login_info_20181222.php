@@ -19,32 +19,37 @@
   </head>
   <body>
     <h1>人人网爬虫 - 提交登录信息</h1>
-    <form class="form-horizontal">
-	  <div class="form-group">
-	    <label for="cookie" class="col-sm-2 control-label">Cookie:</label>
-	    <div class="col-sm-10">
-	      <input type="text" class="form-control" id="cookie" placeholder="cookie">
-	    </div>
-	  </div>
-	  <div class="form-group">
-	    <label for="token" class="col-sm-2 control-label">token:</label>
-	    <div class="col-sm-10">
-	      <input type="text" class="form-control" id="token" placeholder="token">
-	    </div>
-	  </div>
-	  <div class="form-group">
-	    <label for="rtk" class="col-sm-2 control-label">rtk:</label>
-	    <div class="col-sm-10">
-	      <input type="text" class="form-control" id="rtk" placeholder="rtk">
-	    </div>
-	  </div>
-	 
-	  <div class="form-group">
-	    <div class="col-sm-offset-2 col-sm-10">
-	      <button type="submit" class="btn btn-default">Sign in</button>
-	    </div>
-	  </div>
-	</form>
+    <div class="row">
+    	<div class="col-md-6">
+    		<form class="form-horizontal">
+			  <div class="form-group">
+			    <label for="cookie" class="col-sm-2 control-label">Cookie:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="cookie" placeholder="cookie">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="token" class="col-sm-2 control-label">token:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="token" placeholder="token">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="rtk" class="col-sm-2 control-label">rtk:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="rtk" placeholder="rtk">
+			    </div>
+			  </div>
+			 
+			  <div class="form-group">
+			    <div class="col-sm-offset-2 col-sm-10">
+			      <button type="submit" class="btn btn-default">Sign in</button>
+			    </div>
+			  </div>
+			</form>
+    	</div>
+    </div>
+    
     <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
