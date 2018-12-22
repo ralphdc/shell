@@ -6,7 +6,6 @@ def http_get_json( url, headers, params=None, cookies=None):
 	try:
 		response = requests.get(url, headers=headers, cookies=cookies, params=params)
 	except Exception as e:
-		Log.get_logger().exception(e)
 		raise
 	return response.status_code, response.json()
 
@@ -14,7 +13,6 @@ def http_post( url, headers, data=None, cookies=None):
 	try:
 		response = requests.post(url, headers=headers, cookies=cookies, data=data)
 	except Exception as e:
-		Log.get_logger().exception(e)
 		raise
 	return response.status_code, response.json()
 		
