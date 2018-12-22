@@ -56,7 +56,7 @@ def main():
 	
 	print(code)
 	with open('./ren.text', "a+", encoding = 'utf-8') as f:
-		f.write(res)
+		f.write("%s" % res)
 
 	
 	
