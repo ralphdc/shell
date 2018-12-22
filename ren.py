@@ -55,7 +55,9 @@ def main():
 	code, res = http_post(request_url, CHROM_HEADER, get_request_data(73802339, 100, 0), cookie_dict)
 	
 	print(code)
-	print(res.encode('uncide_escape').decode('utf-8'))
+	with open('./ren.text', "a+", encoding = 'utf-8) as f:
+		f.write(res)
+
 	
 	
 	
