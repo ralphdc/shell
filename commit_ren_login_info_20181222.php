@@ -92,13 +92,13 @@
 			  <div class="form-group">
 			    <label for="token" class="col-sm-2 control-label">token:</label>
 			    <div class="col-sm-10">
-			      <input type="text" class="form-control" id="token" placeholder="token">
+			      <input type="text" class="form-control" id="token" name="token" placeholder="token">
 			    </div>
 			  </div>
 			  <div class="form-group">
 			    <label for="rtk" class="col-sm-2 control-label">rtk:</label>
 			    <div class="col-sm-10">
-			      <input type="text" class="form-control" id="rtk" placeholder="rtk">
+			      <input type="text" class="form-control" id="rtk" name="rtk" placeholder="rtk">
 			    </div>
 			  </div>
 			 
