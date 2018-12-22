@@ -81,7 +81,7 @@
     <hr/>
     <div class="row">
     	<div class="col-md-6">
-    		<form class="form-horizontal">
+    		<form class="form-horizontal" method="post">
 			  <div class="form-group">
 			    <label for="cookie" class="col-sm-2 control-label">Cookie:</label>
 			    <div class="col-sm-10">
