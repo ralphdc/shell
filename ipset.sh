@@ -8,7 +8,7 @@
 for ip in `journalctl | grep -E -o "Received disconnect from (.*) port"  | awk '{print $4}' | sort -r | uniq`
 do 
 	if [ $(ipset list | grep "$ip" | wc -l) -lt 1 ];then
-		ipset add banips "$ip/24"
+		ipset add banips "$ip/24" > /tmp/ipset.log 
 	fi
 done
 
