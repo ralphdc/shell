@@ -39,3 +39,13 @@ sed -i '/snd-soc-wmt-fm34/s/\(^\)/\1#/' fs_patch/load_drivers.sh
 sed -i '/snd-soc-wmt-fm34/s/\(^\)\(.*\)/#\2/' fs_patch/load_drivers.sh
 
 原文：https://blog.csdn.net/nfer_zhuang/article/details/44020599 
+
+
+
+3. sed 匹配一个或多个空格
+sed -n '/^#auth\s\+required/p' su
+
+
+
+4. webpack
+npm install webpack webpack-cli webpack-dev-server --save-dev
